@@ -1209,3 +1209,181 @@ section:nth-child(even) {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  nav h2 {
+    margin-bottom: 15px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  #home {
+    padding: 60px 20px;
+  }
+
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-text {
+    width: 100%;
+  }
+
+  .home-text h1 {
+    font-size: 36px;
+  }
+
+  .home-text h2 {
+    font-size: 20px;
+  }
+
+  .home-image {
+    margin-top: 30px;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  .skills-container,
+  .projects-container,
+  .internship-container,
+  .certification-container,
+  .achievement-container {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card,
+  .skill-card,
+  .project-card,
+  .internship-card,
+  .certification-card,
+  .achievement-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-links a {
+    width: 80%;
+    text-align: center;
+  }
+}
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 15px 10px;
+  }
+
+  nav h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  #home {
+    padding: 60px 20px;
+  }
+
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-text {
+    width: 100%;
+  }
+
+  .home-text h1 {
+    font-size: 32px;
+  }
+
+  .home-text h2 {
+    font-size: 19px;
+  }
+
+  .home-image {
+    margin-top: 30px;
+  }
+
+  .home-image img {
+    width: 190px;
+    height: 190px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  .skills-container,
+  .projects-container,
+  .internship-container,
+  .certification-container,
+  .achievement-container {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card,
+  .skill-card,
+  .project-card,
+  .internship-card,
+  .certification-card,
+  .achievement-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-links a {
+    width: 85%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
